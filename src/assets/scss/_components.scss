@@ -1,0 +1,21 @@
+/*
+ * Index
+ * 1. Buttons
+ **/
+
+
+.btn__hire-me {
+  padding: .75em 1em;
+  text-transform: uppercase;
+  font-size: .5em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  border: 1px solid $brand-color;
+  margin-bottom: $spacing-unit;
+
+  &:hover, &:active, &focus {
+    background: $brand-color;
+    color: $background-color;
+    text-decoration: none;
+  }
+}

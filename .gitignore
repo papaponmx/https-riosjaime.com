@@ -66,3 +66,11 @@ dist
 aws-credentials.json
 rsync-credentials.json
 
+.editorconfig
+.gitattributes
+Gemfile
+Gemfile.lock
+_config.build.yml
+_config.yml
+gulp/
+gulpfile.js
