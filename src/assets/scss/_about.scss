@@ -1,0 +1,25 @@
+.about {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: $brand-color;
+  border-radius: 8px;
+
+
+
+ img {
+   height: 250px;
+   width: 250px;
+   border-radius: 50%;
+ }
+
+
+  section:first-child {
+    background: $background-color;
+    border: .5px $grey-color-light solid;
+    max-width: 70vh;
+    padding: 3em;
+  }
+}
