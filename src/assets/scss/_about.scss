@@ -1,6 +1,7 @@
 .about {
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -10,8 +11,8 @@
 
 
  img {
-   height: 250px;
-   width: 250px;
+   height: 200px;
+   width: 200px;
    border-radius: 50%;
  }
 
@@ -19,7 +20,38 @@
   section:first-child {
     background: $background-color;
     border: .5px $grey-color-light solid;
-    max-width: 70vh;
+    max-width: 900px;
     padding: 3em;
+    text-align: center;
+  }
+
+
+  h2, p {
+  text-align: left;
+}
+
+
+}
+
+hr {
+  background: $brand-color;
+  height: 2px;
+  border: none;
+  margin: $spacing-unit 0;
+}
+
+.faq {
+  text-align: left;
+
+  .question {
+    font-weight: bold;
+    margin: 0;
+  }
+
+
+  .answer {
+    margin-top: 0;
+    margin-bottom: $spacing-unit;
   }
 }
+

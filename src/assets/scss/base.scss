@@ -24,6 +24,7 @@ body {
     background-color: $background-color;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    line-height: $base-line-height;
 }
 
 
@@ -32,10 +33,9 @@ body {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+p, pre,
+ul, ol, dl, figure{
+  margin-bottom: $spacing-unit;
 }
 
 
@@ -110,18 +110,49 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+blockquote {
+  display: block;
+  background: $background-color;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+
+
+  /*Font*/
+  //  font-family: $georgia;
+  font-size: 1.5em;
+  line-height: 1.2;
+  color: $brand-color;
+  text-align: left;
+  font-style: italic;
+
+  cite {
+    font-size: .5em;
+  }
 }
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: $brand-color;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+
 
 
 
