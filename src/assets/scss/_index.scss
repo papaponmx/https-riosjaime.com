@@ -7,11 +7,15 @@
 
 }
 
+
+
+
+
 .home {
 
 
 
-  h2, h1 {
+  h2, h1, .resutls__text {
     text-align: center;
   }
 
@@ -26,7 +30,7 @@
   }
 
   .greetings {
-    min-height: 90vh;
+    min-height: 100vh;
   }
 
   .arrow_down {
@@ -109,7 +113,7 @@
 
 @media screen and (min-width: 40em) {
 
-  .greetings, .row__first {
+   .row__first {
     display:flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -118,13 +122,33 @@
 
 
   .greetings {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px $brand-color solid;
+    margin-bottom: $spacing-unit;
 
-  img {
+    img {
     margin-right: 5vw;
   }
 
 }
 
 
+  .result:nth-child(odd) {
+    margin-right: 10vw;
 
-}
+  }
+
+  .call-to-action {
+    margin-top: $spacing-unit*2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+} // End media query
