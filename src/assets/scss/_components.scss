@@ -4,15 +4,34 @@
  **/
 
 
-.btn__hire-me {
+a.btn__hire-me {
   padding: .75em 1em;
   text-transform: uppercase;
   font-size: .5em;
   font-weight: 100;
   letter-spacing: 2px;
   border: 1px solid $brand-color;
+  margin-top: $spacing-unit/2;
   margin-bottom: $spacing-unit*2;
   background: $brand-color;
   color: $background-color;
 
+   &:hover, &:active, &:focus {
+
+    background: lighten($brand-color, 10%);
+    text-decoration: none;
+
+  }
+
+}
+
+
+
+
+hr {
+  background: lightgray;
+  height: 1px;
+  border: none;
+  margin: $spacing-unit/2 0;
+  //width: 2cm;
 }
