@@ -4,6 +4,7 @@
  *  2. Footer
  *  3. Page Content
  *  4. Posts
+ *  5. Wrappper
  */
 
 
@@ -110,8 +111,11 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $brand-color;
     padding: $spacing-unit 0;
+    background: $text-color;
+    color: $background-color;
+
 }
 
 .footer-heading {
@@ -127,7 +131,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $background-color;
     margin-left: -$spacing-unit / 2;
 }
 
@@ -250,4 +254,20 @@
             font-size: 18px;
         }
     }
+}
+
+
+
+
+
+/*
+*  5. Wrappper
+*/
+
+
+
+
+.page-content .wrapper {
+min-height:  100vh;
+
 }
