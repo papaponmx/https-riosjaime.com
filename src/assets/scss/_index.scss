@@ -15,7 +15,7 @@
 
 
 
-  h2, h1, .resutls__text {
+  h2, h1, .results > p {
     text-align: center;
   }
 
@@ -57,6 +57,12 @@
 
 }
 
+
+
+
+
+
+
 @media screen and (max-width: 39.9em) {
 
   .greetings, div[class^="row"] {
@@ -77,6 +83,19 @@
     max-width: 400px;
   }
 
+
+
+  .call-to-action {
+    flex-flow: column;
+    justify-content: center;
+    .question {
+
+    margin-bottom: $spacing-unit/2;
+    }
+  }
+
+
+
 } //.ends media query
 
   .results__gallery {
@@ -89,6 +108,9 @@
     h2 {
       margin-bottom: 0;
       margin-top: 0;
+    }
+    p {
+      text-align: center;
     }
   }
 
@@ -136,6 +158,14 @@
 }
 
 
+  .greetings, .results__gallery {
+    border-bottom: 2px $brand-color solid;
+  }
+
+  .result {
+    max-width: 35vw;
+  }
+
   .result:nth-child(odd) {
     margin-right: 10vw;
 
@@ -152,3 +182,23 @@
 
 
 } // End media query
+
+
+
+
+.see-more {
+  margin-top: $spacing-unit*2;
+  min-height: 30vh;
+
+  h3 {
+    text-transform: uppercase;
+    margin-bottom: $spacing-unit/2;
+    color: #2c2c2c;
+    font-weight: 300;
+  }
+}
+
+.call-to-action {
+  min-height: 30vh;
+
+}

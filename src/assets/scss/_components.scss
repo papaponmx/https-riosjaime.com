@@ -1,7 +1,23 @@
 /*
  * Index
  * 1. Buttons
+ * 2. hr element
  **/
+
+a.btn {
+  border: 2px solid $brand-color;
+  padding: .75em 1em;
+  text-transform: uppercase;
+  font-size: .5em;
+  font-weight: 300;
+  letter-spacing: 2px;
+
+  &:hover, &:active &:focus {
+    color: $background-color;
+    background: darken($brand-color, 1%);
+    text-decoration: none;
+  }
+}
 
 
 a.btn__hire-me {
@@ -26,7 +42,9 @@ a.btn__hire-me {
 }
 
 
-
+/*
+ * hr element
+ */
 
 hr {
   background: lightgray;

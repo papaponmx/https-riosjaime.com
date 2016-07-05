@@ -1,0 +1,23 @@
+.work {
+
+}
+
+
+
+.works__gallery {
+
+}
+
+.row__works {
+  margin-bottom: $spacing-unit;
+
+
+  & img:nth-child(odd) {
+    max-height: 200px;
+
+  }
+
+  &:first-child {
+    margin-top: $spacing-unit;
+  }
+}
