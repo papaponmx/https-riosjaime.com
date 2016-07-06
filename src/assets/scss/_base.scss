@@ -35,12 +35,26 @@ body {
 h1, h2, h3, h4, h5, h6,
 pre,
 ul, ol, dl, figure{
-  margin-bottom: $spacing-unit/4;
+  margin-bottom: $spacing-unit;
 }
 
 p {
   margin: 0;
 }
+
+h1, h2, h3, h4, h5, h6, ul, ol, li,  p {
+  &::selection {
+    background: darken($brand-color, 5%);
+    color: $background-color;
+  }
+
+
+}
+
+a::selection {
+
+}
+
 
 /**
  * Images

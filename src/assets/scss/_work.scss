@@ -5,19 +5,19 @@
 
 
 .works__gallery {
+  align-items: flex-start;
+  justify-content: space-between;
 
 }
 
-.row__works {
-  margin-bottom: $spacing-unit;
+.column__works {
+  max-width: 200px;
+  margin-top: $spacing-unit;
 
-
-  & img:nth-child(odd) {
-    max-height: 200px;
+  & img {
+    margin-bottom: $spacing-unit;
 
   }
 
-  &:first-child {
-    margin-top: $spacing-unit;
-  }
+
 }
