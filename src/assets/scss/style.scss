@@ -2,11 +2,12 @@
 The main SCSS file for everything
 */
 
-@import "main";
+@import "variables";
 @import "base";
 @import "layout";
 @import "components";
 @import "index";
+@import "blog";
 @import "work";
 @import "contact";
 @import "about";
