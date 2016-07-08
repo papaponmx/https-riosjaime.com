@@ -46,7 +46,7 @@
     }
 
     .page-link {
-        color: $header-color;
+        color: $background-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -59,9 +59,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
+        background-color: $brand-color;
         text-align: right;
 
         .menu-icon {
