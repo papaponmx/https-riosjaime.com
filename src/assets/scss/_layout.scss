@@ -127,55 +127,41 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    }
+
+.social-media-list {
+  display: flex;
+  flex-flow: row nowrap;
+
+  a svg[id^=social] {
+    fill: $background-color;
+    height: $spacing-unit*1.5;
+    width: $spacing-unit*1.5;
+    margin-right: $spacing-unit/4;
+   }
+
+  a svg[id^=social]:hover, a svg[id^=social]:active, a svg[id^=social]:focus {
+    fill: $brand-color;
+  }
+
 }
 
-.footer-col-wrapper {
+
+.footer-col-wrapper .row__first {
     font-size: 15px;
     color: $background-color;
-    margin-left: -$spacing-unit / 2;
+    align-items: flex-start;
+
+
 }
 
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+.footer__social  {
+  margin-right: $spacing-unit*5;
 }
 
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
 
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
 
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
 
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
 
 
 
