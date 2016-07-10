@@ -13,24 +13,25 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    //border-top: 5px solid $grey-color-dark;
+    //border-bottom: 1px solid $grey-color-light;
+    min-height: $spacing-unit;
 
     // Positioning context for the mobile navigation icon
     position: relative;
     background: $header-bg;
+
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: $base-font-size*2;
     font-weight: 300;
-    line-height: 56px;
+    line-height: $base-line-height*2;
     letter-spacing: -1px;
-    margin-bottom: 0;
     color: $header-color;
     float: left;
-
+    margin-top: $spacing-unit/2;
+    margin-bottom: $spacing-unit/2;
     &,
     &:visited {
         color: $header-color;
@@ -39,7 +40,9 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: $base-line-height*2;
+    margin-top: $spacing-unit/2;
+    margin-bottom: $spacing-unit/2;
 
     .menu-icon {
         display: none;
@@ -157,7 +160,7 @@
   margin-right: $spacing-unit*5;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: $on-palm) {
 
   .footer-col-wrapper {
     padding: 0 $spacing-unit/2;

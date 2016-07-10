@@ -5,13 +5,15 @@ $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 26px;
+$base-line-height: 24px;
 
-$spacing-unit:     32px;
+$spacing-unit:     36px;
 
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
-$brand-color:      lighten(orangered, 2%);
+//$brand-color:      desaturate(tomato, 62%);
+$brand-color:      #009bbd;
+$brand-color:      teal;
 $header-bg:        $brand-color;
 $header-color:     white;
 $text-color:       #111;
