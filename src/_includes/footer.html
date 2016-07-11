@@ -6,10 +6,10 @@
 
     <div class="footer-col-wrapper row__first">
       <div class="footer__social">
-        <ul class="social-media-list">
+        <div class="social-media-list">
 
           {% if site.author.facebook %}
-          <li>
+          <div>
             <a href="https://facebook.com/{{ site.author.twitter }}">
               <svg version="1.1" id="social-facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
@@ -22,11 +22,11 @@
 
 
             </a>
-          </li>
+          </div>
           {% endif %}
 
           {% if site.author.twitter %}
-          <li>
+          <div>
             <a href="https://twitter.com/{{ site.author.twitter }}">
               <svg version="1.1" id="social-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
@@ -40,11 +40,11 @@
 	C83.704,32.071,86.383,29.288,88.5,26.12z"/>
 </svg>
             </a>
-          </li>
+          </div>
           {% endif %}
 
           {% if site.author.github %}
-          <li>
+          <div>
             <a href="https://github.com/{{ site.author.github }}">
               <svg id="social-github" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
@@ -61,11 +61,11 @@
 </g>
 </svg>
             </a>
-          </li>
+          </div>
           {% endif %}
 
           {% if site.author.treehouse %}
-          <li>
+          <div>
             <a href="https://teamtreehouse.com/{{ site.author.twitter }}">
               <svg version="1.1" id="social-treehouse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
@@ -90,13 +90,13 @@
 </svg>
 
             </a>
-          </li>
+          </div>
           {% endif %}
 
 
 
 
-        </ul>
+        </div>
         <div class="contact-list">
           <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
         </div>
