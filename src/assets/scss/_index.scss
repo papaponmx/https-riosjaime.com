@@ -41,6 +41,8 @@
 
   }
 
+
+
   @keyframes move {
     50% {
       transform: translate(0px, .5em);
@@ -95,6 +97,10 @@
   }
 
 
+.arrow_down{
+
+  display:none;
+}
 
 } //.ends media query
 
