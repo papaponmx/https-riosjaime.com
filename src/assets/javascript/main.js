@@ -1,20 +1,25 @@
+/* Toggle between adding and removing the 'responsive' class to topnav when the user clicks on the icon */
+// eslint-disable-next-line no-use-before-define
 
-// Toggle navigation
 
-function toggle_navigation(element_class) {
-  console.log("Click detected");
-  var e = document.getElementsByClassName(element_class);
+/* eslint-disable */
 
-  if (e.className == "active") {
-    console.log("Is active");
-
+function myFunction() {
+  'use strict';
+  var x = document.getElementById('myTopnav');
+  if (x.className === 'topnav') {
+    x.className += ' responsive';
+  } else {
+    x.className = 'topnav';
   }
-
-  else {
-    console.log("Is NOT active");
-    e.classList.remore("trigger");
-    e.classList.add("trigger-active");
-    console.log("Class added");
-  }
-
 }
+
+/* eslint-enable */
+
+/* This is the expander */
+$(document).ready(function() {
+  'use strict';
+  $('.expander-trigger').click(function(){
+    $(this).toggleClass('expander-hidden');
+  });
+});
