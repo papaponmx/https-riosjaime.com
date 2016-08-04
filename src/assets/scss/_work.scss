@@ -21,3 +21,16 @@
 
 
 }
+
+
+@media screen and (max-width: $on-palm){
+
+  .works__gallery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+}
