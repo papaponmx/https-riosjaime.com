@@ -25,7 +25,7 @@
 
 @media screen and (max-width: $on-palm){
 
-  .works__gallery {
+  .works__gallery, .call-to-action {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,4 +33,9 @@
 
   }
 
+  .column__works:not(:first-child) {
+    margin-top: 0;
+  }
+
 }
+
