@@ -115,7 +115,7 @@ a {
         color: darken($brand-color, 15%);
     }
 
-    &:hover {
+    &:hover:not(.topnav li a) {
         color: lighten($brand-color, 10%);
         text-decoration: underline;
     }
