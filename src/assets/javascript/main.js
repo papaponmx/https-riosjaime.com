@@ -16,10 +16,43 @@ function toggleNavigation() {
 
 /* eslint-enable */
 
-/* This is the expander */
-$(document).ready(function() {
-  'use strict';
-  $('.expander-trigger').click(function(){
-    $(this).toggleClass('expander-hidden');
-  });
-});
+// Dribbble API interaction
+
+
+
+
+
+$(document).ready(
+
+
+  function() {
+
+    var siteTittle = $(document).find("title").text();
+
+      if (siteTittle == 'work') {
+        console.log('The title is work');
+      }
+      else {
+        console.log('The site tittle is not work');
+
+      }
+  },
+
+
+
+
+    $.ajax({
+      type: 'GET',
+      url: 'https://api.dribbble.com/v1/users/papaponmx/shots/?access_token=d0fb37a3cef7a2f82c4b0d13dd9bbc09e36c0bbaf7ca420662a7993846c54af9',
+      success: function(data){
+        console.log('success', data);
+        console.log('It worked :D');
+      }
+
+    })
+
+
+
+);
+
+
