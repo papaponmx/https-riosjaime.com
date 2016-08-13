@@ -4,7 +4,7 @@
 
 /* eslint-disable */
 
-function myFunction() {
+function toggleNavigation() {
   'use strict';
   var x = document.getElementById('myTopnav');
   if (x.className === 'topnav') {
