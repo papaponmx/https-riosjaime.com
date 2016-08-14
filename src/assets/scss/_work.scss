@@ -1,1 +1,35 @@
 // Tabula rasa
+
+#dribbble__gallery {
+ display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: $spacing-unit;
+ a img {
+
+   border: 1px solid #555;
+   box-shadow: 2px 2px #555;
+   margin: $spacing-unit $spacing-unit/4 $spacing-unit/6 $spacing-unit/4;
+   padding: $spacing-unit/4;
+   transition-duration: .25s;
+
+ &:hover, &:active, &:focus {
+   border: 1px solid $brand-color;
+   box-shadow: 5px 5px $brand-color;
+
+
+ }
+ }
+
+}
+
+
+@media screen and (max-width: $on-palm){
+  #dribbble__gallery {
+    justify-content: center;
+
+  }
+
+
+
+}

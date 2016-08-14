@@ -32,7 +32,7 @@ $(document).ready(
             console.log('Just logged the cities variable');
 
 
-            // This loops in order to create the gallery
+            // This loops trough the API response in order to create the gallery
             for (var shot in shots) {
 
               // Note to myself: Please note the sintax that gives you access to the id, for some reason, it took me some time find it
