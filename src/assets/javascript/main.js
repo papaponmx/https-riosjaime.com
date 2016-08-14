@@ -21,7 +21,7 @@ function toggleNavigation() {
 $(document).ready(
 
 
-  function() {
+  function dribbble_API_interaction() {
 
       if ( $('#title__work').length){
         $.getJSON({
@@ -37,7 +37,15 @@ $(document).ready(
 
               // Note to myself: Please note the sintax that gives you access to the id, for some reason, it took me some time find it
                  // console.log(shots[shot].id);
-                 $('#dribbble__gallery').append('<li>' + '<img src="' + shots[shot].images.teaser + '">' + '</li>');
+                 $('#dribbble__gallery').append( '<a href="'
+                                                  + shots[shot].html_url
+                                                  + '"'
+                                                  + ' target="_blank">'
+                                                  + '<img src="'
+                                                  + shots[shot].images.teaser
+                                                  + '">'
+                                                  + '</a>'
+                 );
 
             }
           }
