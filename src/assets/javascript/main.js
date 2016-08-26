@@ -28,35 +28,32 @@ $(document).ready(
           url: 'https://api.dribbble.com/v1/users/papaponmx/shots/?access_token=d0fb37a3cef7a2f82c4b0d13dd9bbc09e36c0bbaf7ca420662a7993846c54af9',
           success: function(data){
             var shots = ('success', data);
-            console.log(shots);
-            console.log('Just logged the cities variable');
+          //  console.log(shots);
+          //  console.log('Just logged the cities variable');
 
 
             // This loops trough the API response in order to create the gallery
             for (var shot in shots) {
 
-              // Note to myself: Please note the sintax that gives you access to the id, for some reason, it took me some time find it
-                 // console.log(shots[shot].id);
-                 $('#dribbble__gallery').append( '<a href="'
-                                                  + shots[shot].html_url
-                                                  + '"'
-                                                  + ' target="_blank">'
-                                                  + '<img src="'
-                                                  + shots[shot].images.teaser
-                                                  + '">'
-                                                  + '</a>'
+              // Note to myself: Please note the sintax                // console.log(shots[shot].id);
+                 $('#dribbble__gallery').append( '<a href="'                                        + shots[shot].html_url + '"' + ' target="_blank">'  + '<img src="' + shots[shot].images.teaser + '">'+ '</a>'
                  );
 
             }
           }
 
         });
-console.log(this.legnth);
+      //  console.log(this.legnth);
       }
   }
 );
 
 
+// About me expander
 
-
+$(document).ready(function expanderFunction() {
+  $('.expander-trigger').click(function(){
+    $(this).toggleClass("expander-hidden");
+  });
+});
 
