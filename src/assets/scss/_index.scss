@@ -98,10 +98,10 @@
   }
 
 
-.arrow_down{
+/*.arrow_down{
 
   display:none;
-}
+}*/
 
 } //.ends media query
 
@@ -194,8 +194,11 @@
 
 
 .see-more {
-  margin-top: $spacing-unit*2;
-  min-height: 30vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
 
   h3 {
     text-transform: uppercase;

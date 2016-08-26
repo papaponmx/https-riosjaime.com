@@ -53,15 +53,16 @@
 
       }
 
-      &:hover, &:focus, &:active {
-        font-weight: 700;
-       // border-bottom: 1px solid $background-color;
-      }
 
       a {
         color: $background-color;
         font-size: 1.15em;
 
+
+        &:hover, &:focus, &:active {
+          font-weight: 700;
+          color: lighten($secondary-color, 15%);
+        }
       }
 
     }
@@ -99,7 +100,7 @@
     text-align: left;
 
     &:hover, &:focus, &:active {
-      background-color: darken($brand-color, 10%);
+      background-color: lighten($brand-color, 10%);
 
     }
 
@@ -141,7 +142,7 @@
    }
 
   a svg[id^=social]:hover, a svg[id^=social]:active, a svg[id^=social]:focus {
-    fill: $brand-color;
+    fill: $secondary-color;
   }
 
 }

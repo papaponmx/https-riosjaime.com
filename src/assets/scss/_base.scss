@@ -113,19 +113,22 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $secondary-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($secondary-color, 5%);
     }
 
-    &:hover:not(.topnav li a) {
-        color: lighten($brand-color, 10%);
-        text-decoration: underline;
+    &:hover, &:active, &:focus {
+        color: darken($secondary-color, 2%);
+       // text-decoration: underline;
     }
 }
 
+ p a:not(.btn__hire-me) {
+  text-decoration: underline;
+}
 
 
 /**
