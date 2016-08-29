@@ -14,10 +14,9 @@
 .home {
 
 
-
-  h2, h1, .results > p {
+/*  h2, h1, .results > p {
     text-align: center;
-  }
+  }*/
 
 
   img {
@@ -34,8 +33,9 @@
     min-height: 80vh;
   }
 
+
   .arrow_down {
-    animation: move 2s ease-in 2s infinite;
+    animation: move 5s linear 2s infinite;
 
     height: 3em;
     width: 3em;
@@ -44,9 +44,10 @@
 
 
 
+
   @keyframes move {
     50% {
-      transform: translate(0px, .5em);
+      transform: translate(0px, 5vh);
     }
   }
 
