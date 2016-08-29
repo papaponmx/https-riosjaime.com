@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2016-08-21
+date: 2016-09-16
 title: How I became a Web Developer Part 3
 categories: my story
 ---
