@@ -124,22 +124,21 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-    }
+
 
 .social-media-list {
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
 
   a svg[id^=social] {
-    fill: $background-color;
-    height: $spacing-unit*1.5;
-    width: $spacing-unit*1.5;
-    margin-right: $spacing-unit/4;
-   }
+      fill: $background-color;
+      height: $spacing-unit*1.25;
+      width: $spacing-unit*1.25;
+      margin-right: $spacing-unit/4;
+  }
+
 
   a svg[id^=social]:hover, a svg[id^=social]:active, a svg[id^=social]:focus {
     fill: $secondary-color;
