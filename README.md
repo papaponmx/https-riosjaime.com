@@ -1,6 +1,6 @@
 # About this project
 
-This is the repo of my website. Thnaks for taking the time to know more about it. 
+ Thanks for taking the time to know more about my work. 
 
 
 ## Technologies 
