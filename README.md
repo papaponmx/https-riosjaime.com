@@ -1,41 +1,27 @@
-# blog
+# About this project
 
-> This is another iteration of my personal website with a blog included
+This is the repo of my website. Thnaks for taking the time to know more about it. 
 
-## To get started
 
-```sh
-$ gulp [--prod]
-```
+## Technologies 
 
-## Usage
+Here is a list of the technologies used in no particular oder.
 
-```sh
-$ gulp build [--prod]
-```
+* HTML5.
+* [jQuery](https://jquery.com/).
+* AJAX.
+* [Dribbble API](http://developer.dribbble.com/v1/).
+* [GulpJS](http://gulpjs.com/).
+* [Yeoman](http://yeoman.io/).
+* SCSS/SASS.
+* [Jekyll](https://jekyllrb.com/).
+* FTP.
+* [Jekyllized Generator](https://github.com/sondr3/generator-jekyllized).
+* Inkscape.
+* [Google Fonts](fonts.googleapis.com).
+* [YSLOW](http://yslow.org/)
 
-```sh
-$ gulp deploy
-```
 
-#### Settings
-In your `_config.yml` and `humans.txt` you should add your Github and Twitter
-profile if you want to.
 
-## Install
-If you have cloned this repo or want to reinstall, make sure there&#39;s no
-`node_modules` or `Gemfile.lock` folder/file and then run `npm install` and
-`bundle install`.
 
-#### Update
-To update: `npm update generator-jekyllized -g`, then run `yo jekyllized:gulp
-[--rsync|amazon|pages]` in this directory. Note that this will overwrite any
-local changes, so back it up.
-
-## Github
-For more information on how to use your new project, please refer to the [README
-on Github](https://github.com/sondr3/generator-jekyllized).
-
-## Owner
-
-> [Jaime Rios](http://riosjaime.com)
+## License. 
