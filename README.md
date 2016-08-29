@@ -25,3 +25,6 @@ Here is a list of the technologies used in no particular oder.
 
 
 ## License. 
+For my profile image and the blog posts All rights are reserved. 
+
+Everything else on this site is under [MIT license](https://opensource.org/licenses/MIT)
