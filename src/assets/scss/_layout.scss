@@ -127,9 +127,9 @@
 
 
 .social-media-list {
-  display: flex;
+  display: inline-flex;
   flex-flow: row nowrap;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
 
   a svg[id^=social] {
