@@ -1,4 +1,5 @@
 # About this project
+ This website was scaffolded using yeoman. Therefor I only include the src folder.
 
  Thanks for taking the time to know more about my work. 
 
@@ -17,7 +18,7 @@ Here is a list of the technologies used in no particular oder.
 * [Yeoman](http://yeoman.io/).
 * SCSS/SASS.
 * [Jekyll](https://jekyllrb.com/).
-* FTP.
+* FTPS.
 * [Jekyllized Generator](https://github.com/sondr3/generator-jekyllized).
 * Inkscape.
 * [Google Fonts](fonts.googleapis.com).
