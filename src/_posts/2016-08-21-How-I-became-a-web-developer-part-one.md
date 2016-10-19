@@ -17,7 +17,7 @@ During my life, I was first introduced to coding in high shcool, around 2007. It
   <br>
   <br> 
 There we would learn about variables, data types and loops in Pascal. Despite their good intentions, <!--more-->
-the education we received there was rather messy, most relevant programing languages are written in English. Since neither the teacher nor the students were English speakers, so debuggin errors like 
+the education we received there was rather messy, most relevant programing languages are written in English. Since neither the teacher nor the students were English speakers, so debugging errors like 
 ```pascal
 Error : This must be a boolean value.
 ```
@@ -47,4 +47,4 @@ Same mistakes, new environment. This time I was the only English speaker in the 
 After the course was finished, no more programing was taught in the course, at least not for two years. I looked for resources but could find a site that was newbie friendly. Then I started to look for a local programing ~~camp, course, school, lord of the code~~ or someone who could teach me how to it. 
   <br>
   <br>
-I found a free conference about how to get started. I got lost looking for the place since the adress was not the actual location. While being lost I made a friend, but never an app.
+I found a free conference about how to get started. I got lost looking for the place since the address was not the actual location. While being lost I made a friend, but never an app.
