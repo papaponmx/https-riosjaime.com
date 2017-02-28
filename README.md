@@ -1,3 +1,7 @@
+#  DEPRECATED
+This version of the site is no longer being supported. It exists only for illustration purposes. In order to see the latest iteration, please refer to [latest riosjaime.com repo](https://github.com/papaponmx/angular.riosjaime.com)
+
+
 # About this project
  This website was scaffolded using yeoman. Therefor I only include the src folder.
 
